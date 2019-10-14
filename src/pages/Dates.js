@@ -1,11 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import { View,AsyncStorage, KeyboardAvoidingView, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
+import { View,AsyncStorage, KeyboardAvoidingView, Text, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 import DatePicker from 'react-native-datepicker';
 import moment from 'moment';
 
 import api from '../services/api';
-
-
 
 
 export default function Dates({ navigation }) {

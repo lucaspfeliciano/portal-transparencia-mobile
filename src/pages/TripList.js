@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { View, Alert, AsyncStorage, ScrollView, KeyboardAvoidingView,SafeAreaView, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Alert, AsyncStorage, ScrollView, SafeAreaView, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 import api from '../services/api';
 

@@ -25,7 +25,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "ine5612.dso2.viagenstransparentes"
+    },
+    "android": {
+      "package": "ine5612.dso2.viagenstransparentes"
     }
   }
 }

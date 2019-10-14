@@ -34,7 +34,6 @@ export default function Trip({navigation}) {
                 <Text style={styles.label}>Valor total de taxas de agenciamento:</Text>
                 <Text>R${viagem.valorTotalTaxaAgenciamento}</Text>
                 <Text style={styles.label}>Valor total de multas:</Text>
-    
                 <Text>R${viagem.valorMulta}</Text>
                 <Text style={styles.label}>Valor total de diárias:</Text>
                 <Text>R${viagem.valorTotalDiarias}</Text>
@@ -57,7 +56,7 @@ export default function Trip({navigation}) {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#f05a5b',
+        backgroundColor: '#FFF',
         flex: 1,
         marginTop: 20,
     },
@@ -69,7 +68,7 @@ const styles = StyleSheet.create({
 
     label: {
         fontWeight: 'bold',
-        color: '#FFF',
+        color: '#f05a5b',
         marginBottom: 8,
         marginTop: 4,
         fontSize: 15,
@@ -78,17 +77,17 @@ const styles = StyleSheet.create({
     button: {
         height: 42,
         width: 150,
-        backgroundColor: '#f05a5b',
+        backgroundColor: '#FFF',
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 2,
         marginHorizontal: 6,
         borderWidth:2,
-        borderColor: '#FFF'
+        borderColor: '#f05a5b'
     },
 
     buttonText: {
-        color: '#FFF',
+        color: '#f05a5b',
         fontWeight: 'bold',
         fontSize: 14,
     },
