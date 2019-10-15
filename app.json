@@ -2,7 +2,7 @@
   "expo": {
     "name": "Viagens Trasparentes",
     "description": "Aplicativo criado para a disciplina de DSO2 - UFSC",
-    "slug": "viagens-transparentes",
+    "slug": "viagens-transparentes-i",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -10,9 +10,9 @@
       "android",
       "web"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icone.png",
+    "icon": "./assets/lupa.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
